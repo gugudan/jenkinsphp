@@ -1,4 +1,7 @@
 <?php 
+	/*
+	 * Add comment here
+	 */
 	class ValidatePassword {
 		const MIN_LENGTH = 6;
 		const MAX_LENGTH = 20;
