@@ -19,5 +19,12 @@
 			return $passLength >= self::MIN_LENGTH && $password <= self::MAX_LENGTH;
 		
 		}
+		
+		public function htestval2($password) {
+			$passLength = strlen($password);
+		
+			return $passLength >= self::MIN_LENGTH && $password <= self::MAX_LENGTH;
+		
+		}
 	}
 ?>
